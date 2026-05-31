@@ -3,8 +3,6 @@
 **Course:** Physics of Molecular Diseases — Week 1  
 **Question 5:** Write code implementing the ODE described in the Finke-Watzky model. Test that your results agree with the analytical solution.
 
-**Reference:** Morris, Watzky, Agar & Finke, *Biochemistry* 2008, 47, 2413–2427.
-
 ---
 
 ## Overview
