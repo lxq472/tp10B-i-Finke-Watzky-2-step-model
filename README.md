@@ -7,7 +7,7 @@
 
 ## Overview
 
-The Finke-Watzky (F-W) 2-step model is a minimal "Ockham's razor" kinetic model for protein aggregation. Despite having only two parameters ($k_1$ and $k_2$), it fits 14 representative neurological protein aggregation datasets with $R^2 \geq 0.98$ — for amyloid-$\beta$, $\alpha$-synuclein, and polyglutamine disease proteins, across four different experimental methods and nine independent laboratories.
+The Finke-Watzky (F-W) 2-step model is a minimal "Ockham's razor" kinetic model for protein aggregation. Despite having only two parameters ($k_1$ and $k_2$), it fits 14 representative neurological protein aggregation datasets with $R^2 \geq 0.98$ — for amyloid- $\beta$, $\alpha$-synuclein, and polyglutamine disease proteins, across four different experimental methods and nine independent laboratories.
 
 Its key advantage over the full Oosawa Master Equation approach is that it **deconvolutes nucleation from growth** in a simple, analytically tractable form.
 
