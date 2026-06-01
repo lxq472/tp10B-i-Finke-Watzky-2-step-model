@@ -45,8 +45,8 @@ This closed-form solution exists because the conservation law reduces the system
 
 | Parameter | Units | Physical meaning | Observable |
 |-----------|-------|-----------------|------------|
-| $k_1$ | time$^{-1}$ | Nucleation rate constant | $k_1 \propto 1/t_\text{induction}$ — controls lag phase length |
-| $k_2$ | conc$^{-1}$ time$^{-1}$ | Autocatalytic growth rate | $k_2[A]_0 \propto$ slope after lag — controls growth speed |
+| $k_1$ | time $^{-1}$ | Nucleation rate constant | $k_1 \propto 1/t_\text{induction}$ — controls lag phase length |
+| $k_2$ | conc $^{-1}$ time $^{-1}$ | Autocatalytic growth rate | $k_2[A]_0 \propto$ slope after lag — controls growth speed |
 | $[A]_0$ | conc | Initial monomer concentration | Set experimentally |
 
 The separation of $k_1$ and $k_2$ is the central result of the F-W model — something the earlier, more complete Oosawa-style models could not achieve in a simple, generally applicable way.
@@ -68,7 +68,7 @@ This is the key mechanistic insight: $k_1$ and $k_2$ control independent feature
 
 The numerical ODE solution agrees with the analytical solution to better than $2 \times 10^{-11}$ mM absolute error — a relative error of $~10^{-9}$ %. This confirms both implementations are correct and consistent.
 
-The % aggregated curve ($[B](t)/[A]_0 \times 100$) reproduces Figure 1 of Morris et al. (2008) with the same representative parameters ($k_1 = 10^{-5}$ h$^{-1}$, $k_2 = 10^{-3}$ mM$^{-1}$h$^{-1}$).
+The % aggregated curve ($B(t)/A_0 \times 100$) reproduces Figure 1 of Morris et al. (2008) with the same representative parameters ($k_1 = 10^{-5}$ $h^{-1}$, $k_2 = 10^{-3}$ $μ$ $M^{-1}$ $h^{-1}$).
 
 ---
 
