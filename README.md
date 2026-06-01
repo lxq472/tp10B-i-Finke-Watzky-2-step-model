@@ -53,7 +53,7 @@ The separation of $k_1$ and $k_2$ is the central result of the F-W model — som
 
 ### Effect of parameters
 
-| Change | Effect on $[B](t)$ |
+| Change | Effect on B(t) |
 |--------|-------------------|
 | ↑ $k_1$ | Shorter lag phase ($t_\text{ind} \propto 1/k_1$); nucleation starts sooner |
 | ↓ $k_1$ | Longer lag phase; delayed aggregation onset |
@@ -66,7 +66,7 @@ This is the key mechanistic insight: $k_1$ and $k_2$ control independent feature
 
 ## Validation of ODE vs Analytical
 
-The numerical ODE solution (RK45, `rtol=1e-10`, `atol=1e-12`) agrees with the analytical solution to better than $2 \times 10^{-11}$ mM absolute error — a relative error of $~10^{-9}$ %. This confirms both implementations are correct and consistent.
+The numerical ODE solution agrees with the analytical solution to better than $2 \times 10^{-11}$ mM absolute error — a relative error of $~10^{-9}$ %. This confirms both implementations are correct and consistent.
 
 The % aggregated curve ($[B](t)/[A]_0 \times 100$) reproduces Figure 1 of Morris et al. (2008) with the same representative parameters ($k_1 = 10^{-5}$ h$^{-1}$, $k_2 = 10^{-3}$ mM$^{-1}$h$^{-1}$).
 
