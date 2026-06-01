@@ -13,16 +13,6 @@ Its key advantage over the full Oosawa Master Equation approach is that it **dec
 
 ---
 
-## Files
-
-| File | Description |
-|------|-------------|
-| `Q5_finke_watzky_jupyter.py` | ODE + analytical solution, validation, parameter exploration — Jupyter-ready |
-| `fw_ode_vs_analytical.png` | Figure 1: ODE vs analytical, residuals, % aggregated |
-| `fw_parameter_exploration.png` | Figure 2: Effect of k1 and k2 on aggregation kinetics |
-
----
-
 ## The Model
 
 ### Reactions (Scheme 2, Morris et al. 2008)
